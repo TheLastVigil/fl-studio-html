@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FL Studio-like Synthesizer</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>FL Studio-like Synthesizer</h1>
+      <p>Press keys QWERTYUIOPASDFGHJKLZXCVBNM to play different pitches.</p>
+    </div>
+    <div>
+      <button id="sineWaveButton">Sine</button>
+      <button id="squareWaveButton">Square</button>
+      <button id="sawtoothWaveButton">Sawtooth</button>
+      <button id="triangleWaveButton">Triangle</button>
+    </div>
+    <div class="pianoWrapper">
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="q">C</div>
+        <div class="notePlaceingArea" data-note="q"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="blackKey pianoKey" data-note="w">C#</div>
+        <div class="notePlaceingArea" data-note="w"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="e">D</div>
+        <div class="notePlaceingArea" data-note="e"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="blackKey pianoKey" data-note="r">D#</div>
+        <div class="notePlaceingArea" data-note="r"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="t">E</div>
+        <div class="notePlaceingArea" data-note="t"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="y">F</div>
+        <div class="notePlaceingArea" data-note="y"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="blackKey pianoKey" data-note="u">F#</div>
+        <div class="notePlaceingArea" data-note="u"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="i">G</div>
+        <div class="notePlaceingArea" data-note="i"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="blackKey pianoKey" data-note="o">G#</div>
+        <div class="notePlaceingArea" data-note="o"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="p">A</div>
+        <div class="notePlaceingArea" data-note="p"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="blackKey pianoKey" data-note="a">A#</div>
+        <div class="notePlaceingArea" data-note="a"></div>
+      </div>
+      <div class="noteWrapper">
+        <div class="whiteKey pianoKey" data-note="s">B</div>
+        <div class="notePlaceingArea" data-note="s"></div>
+      </div>
+    </div>
+    <div>
+      <button id="playButton">Play</button>
+      <button id="stopButton">Stop</button>
+    </div>
+  </body>
+</html>
